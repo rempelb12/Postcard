@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D900B519C7521F00BC2DC5 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45D900B419C7521F00BC2DC5 /* AlbertEinsteinStamp.jpg */; };
 		45E7778C19C2A732004E307D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7778B19C2A732004E307D /* AppDelegate.swift */; };
 		45E7778E19C2A732004E307D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7778D19C2A732004E307D /* ViewController.swift */; };
 		45E7779119C2A733004E307D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E7778F19C2A733004E307D /* Main.storyboard */; };
 		45E7779319C2A733004E307D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E7779219C2A733004E307D /* Images.xcassets */; };
 		45E7779619C2A733004E307D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E7779419C2A733004E307D /* LaunchScreen.xib */; };
 		45E777A219C2A733004E307D /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E777A119C2A733004E307D /* PostcardTests.swift */; };
+		45FB2E7219C39EAB0076AF90 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45FB2E7119C39EAB0076AF90 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45D900B419C7521F00BC2DC5 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		45E7778619C2A732004E307D /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E7778A19C2A732004E307D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E7778B19C2A732004E307D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		45E7779B19C2A733004E307D /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E777A019C2A733004E307D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E777A119C2A733004E307D /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		45FB2E7119C39EAB0076AF90 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		45E7778919C2A732004E307D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45D900B419C7521F00BC2DC5 /* AlbertEinsteinStamp.jpg */,
+				45FB2E7119C39EAB0076AF90 /* SagradaFamilia.jpeg */,
 				45E7778A19C2A732004E307D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E7779119C2A733004E307D /* Main.storyboard in Resources */,
+				45FB2E7219C39EAB0076AF90 /* SagradaFamilia.jpeg in Resources */,
+				45D900B519C7521F00BC2DC5 /* AlbertEinsteinStamp.jpg in Resources */,
 				45E7779619C2A733004E307D /* LaunchScreen.xib in Resources */,
 				45E7779319C2A733004E307D /* Images.xcassets in Resources */,
 			);
@@ -405,6 +413,7 @@
 				45E777A719C2A733004E307D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E777A819C2A733004E307D /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				45E777AA19C2A733004E307D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
